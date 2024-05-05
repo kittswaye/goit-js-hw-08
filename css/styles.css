@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 24px 156px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+}
+
+.gallery-item img {
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-item img:hover {
+    width: 376px;
+    height: 208px;
+    margin-top: -4px;
+    margin-left: -8px;
+    position: fixed;
+}
